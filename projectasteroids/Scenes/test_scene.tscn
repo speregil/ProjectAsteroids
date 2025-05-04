@@ -1,8 +1,38 @@
-[gd_scene load_steps=2 format=3 uid="uid://bkpkeop1rer0d"]
+[gd_scene load_steps=3 format=3 uid="uid://bkpkeop1rer0d"]
 
 [ext_resource type="PackedScene" uid="uid://bcahxsfxlgfk8" path="res://Scenes/ship.tscn" id="1_3dogw"]
+[ext_resource type="PackedScene" uid="uid://bvxl371eay2qy" path="res://Scenes/asteroid.tscn" id="2_r5l72"]
 
 [node name="Test" type="Node2D"]
 
 [node name="Ship" parent="." instance=ExtResource("1_3dogw")]
 position = Vector2(526, 312)
+
+[node name="Asteroid" parent="." instance=ExtResource("2_r5l72")]
+rotation = 1.91986
+speed = 100.0
+
+[node name="Asteroid5" parent="." instance=ExtResource("2_r5l72")]
+position = Vector2(974, 341)
+rotation = 2.80127
+speed = 100.0
+
+[node name="Asteroid2" parent="." instance=ExtResource("2_r5l72")]
+position = Vector2(379, 5)
+rotation = 1.91986
+speed = 100.0
+
+[node name="Asteroid3" parent="." instance=ExtResource("2_r5l72")]
+position = Vector2(590, 135)
+rotation = 3.96914
+speed = 100.0
+
+[node name="Asteroid4" parent="." instance=ExtResource("2_r5l72")]
+position = Vector2(252, 342)
+rotation = 3.96914
+speed = 100.0
+
+[node name="Asteroid6" parent="." instance=ExtResource("2_r5l72")]
+position = Vector2(472, 613)
+rotation = 3.96914
+speed = 100.0
